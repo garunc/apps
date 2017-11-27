@@ -1,0 +1,17 @@
+{
+  "name": "az-node-ramya",
+  "version": "0.0.0",
+  "description": "azNodeRamya",
+  "main": "app.js",
+  "author": {
+    "name": "Z003SJPM"
+  },
+  "dependencies": {
+    "easyxml": "^2.0.1",
+    "express": "^4.16.2",
+    "object-to-xml": "^1.1.0",
+    "tedious": "^2.1.1",
+    "tedious-promises": "^0.4.1",
+    "xml": "^1.0.1"
+  }
+}

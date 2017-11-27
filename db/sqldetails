@@ -1,0 +1,51 @@
+arunsqlserver.database.windows.net
+Pass@1234
+jdbc:sqlserver://arunsqlserver.database.windows.net:1433;database=arunsqldatabase;user=sqlserveradmin@arunsqlserver;password={Pass@1234};encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+
+
+jdbc:sqlserver://arunsqlserver.database.windows.net:1433;database=arunsqldatabase;user=sqlserveradmin@arunsqlserver;password={your_password_here};encrypt=true;
+trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+
+
+
+
+
+
+ // var connection = new Connection(config);
+    // var result = [];
+    //     // Attempt to connect and execute queries if connection goes through
+    //     connection.on('connect', function (err) {
+    //         if (err) {
+    //             console.log(err)
+    //         }else{
+    //             console.log('connecting to database .');
+    //         }
+    //     }
+    //     );
+            
+        
+    //     // Read all rows from table
+    //     request = new Request(
+    //         "SELECT name,length,seconds_1 from receipe",
+    //         function (err, rowCount, rows) {
+    //             console.log(result); 
+    //         }
+    //     );
+       
+    //     request.on('row', function (columns) {
+    //         var rowObject = {};
+    //         columns.forEach(function (column) {
+    //             rowObject[column.metadata.colName] = column.value;
+    //             console.log(rowObject);
+
+    //         });
+    //         console.log('rowvalue ' +rowObject);
+    //         result.push(rowObject);
+           
+    //     });
+    //     console.log('sql data ' + result);
+    //     // console.log('sql data ' +result); 
+    //     // callback(null,getalldata);
+    //     connection.execSql(request);
+  
+    //     return result;

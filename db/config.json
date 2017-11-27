@@ -1,0 +1,9 @@
+{
+  "userName": "ServerAdmin",
+  "password": "Pass@12345",
+  "server": "chocolate-factory-recipe-server.database.windows.net",
+  "options": {
+    "database": "Chocolate_Factory_Recipes",
+    "encrypt": true
+  }
+}
